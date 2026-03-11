@@ -25,12 +25,11 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "styles": ["src/styles.css"]
           },
           "configurations": {
             "production": {
+              "baseHref": "/investment-calculator/",
               "budgets": [
                 {
                   "type": "initial",
